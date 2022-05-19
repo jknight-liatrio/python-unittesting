@@ -14,3 +14,15 @@ I'll be covering:
 * What are fixtures?
 * What is a mock how to use them?
   * What happens when we can't test some component of our function?
+
+
+```shell
+
+
+# Running coverage
+pytest --cov=.  test_script.py
+
+
+# Running integration tests
+pytest -v -m integration --cov=examples.py  test_examples.py
+```
